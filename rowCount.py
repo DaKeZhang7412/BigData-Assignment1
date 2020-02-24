@@ -34,7 +34,7 @@ def mapper(test_data_directory):
 # This function allows you to test the mapper with the provided test file
 def main():
     # sys.stdin = StringIO.StringIO(test_data_directory)
-    mapper(test_data_directory)
+    mapper()
     # sys.stdin = sys.__stdin__
 
 if __name__ == "__main__":
